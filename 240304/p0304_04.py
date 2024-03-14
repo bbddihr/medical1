@@ -13,4 +13,4 @@ for i, stu in enumerate(students):
     
     #kors += stu[i][1]
     
-print(kors)
+# print(kors)
