@@ -1,4 +1,11 @@
-& C:/Python312/python.exe "c:/WORKSPACE/medical1/p0315/P0315_05 copy.py"
-& C:/Python312/python.exe "c:/WORKSPACE/medical1/p0315/P0315_05 copy.py"
-qqq,1111
-qqq,1111
+aaa, 1111
+rpe, 1858
+pqw, 3254
+tqh, 6250
+ldp, 9553
+eln, 3647
+hkn, 1350
+ili, 3248
+rrg, 3919
+nyh, 4105
+ebp, 4774
