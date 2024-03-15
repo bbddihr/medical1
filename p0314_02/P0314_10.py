@@ -1,4 +1,4 @@
-f=open("k001.csv","r")
+f=open("k001.csv","r",encoding='UTF8')
 
 cnt=0
 sum=0

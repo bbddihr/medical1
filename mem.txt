@@ -1,0 +1,4 @@
+& C:/Python312/python.exe "c:/WORKSPACE/medical1/p0315/P0315_05 copy.py"
+& C:/Python312/python.exe "c:/WORKSPACE/medical1/p0315/P0315_05 copy.py"
+qqq,1111
+qqq,1111
