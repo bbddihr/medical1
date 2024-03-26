@@ -1,3 +1,0 @@
-stu_name 
-
-stuName

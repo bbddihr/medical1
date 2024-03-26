@@ -1,0 +1,13 @@
+students = {"stuNo":1, "stuName":"홍길동","tel":"010-0000-0000", 
+            "gender": "male","id":"aaa", "pw":1111}
+            #nicName:길동스
+            
+#키값이 없는 데이터를 가져오려고 할때는 에러나니까 조심하기
+if "studentNo" in students:
+    print("key가 있습니다.")
+    students["studentNo"]=students["studentNo"]+1
+    print(students["stuNo"])
+else: 
+
+    print("key가 존재하지 않습니다.") 
+         

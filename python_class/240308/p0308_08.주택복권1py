@@ -1,0 +1,42 @@
+import random
+
+first_num=random.randint(1,9)
+last_num = random.randint(0,999999)
+
+lotto=str(first_num)+"조"+"{:6d}".format(last_num)
+print(lotto)
+
+l_input =input("복권번호를 입력하세요(예:1조111111)>")
+
+#비교하는 프로그램을 구현하시오.
+#자리수를 활용하세요.
+
+for i in range(len(last_num),0,-1):
+    print(a[i-1])
+    
+while True:
+    for i in range(len(last_num),0.-1):
+        
+    
+#     if lotto[i] == l_input[i]:
+#         cnt += 1
+#for i in range(len(a),0,-1):
+#print(i)
+
+# cnt=0
+# for i in range(len(lotto),0,-1):
+#     if lotto[-1] == l_input[-1]:
+#         cnt -= -1
+        
+# print('맞는개수:',cnt-1)
+
+
+
+
+# a= "123456"
+# b= "777776"
+# print(a[-2])
+# a='123456'
+# b='234566'
+# for i in range(len(a),0,-1):
+#     print(i)
