@@ -1,20 +1,4 @@
 while True:
-    print("로그인")
-    id=input("아이디:")
-    pw=input("패스워드:")
-    
-    chk=0
-    with open("member.csv","r",encoding='utf-8') as f:
-        while True:
-            txt=f.readline()
-            if txt=="": break
-            mem=txt.split(",")
-            if id==mem[1] and pw==mem[2]:
-
-
-
-
-while True:
     print("[로그인]")
     print("-"*20)
     id=input("아이디: ")
