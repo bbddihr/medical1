@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{width:1200px; margin: 50px auto;}
+        h2{text-align:center;}
+        table{border-collapse:collapse; width:1200px;}
+        table,th,td{border:1px solid black; text-align:center;}
+        th{height:45px; background:#efefef;}
+        td{height:40px;}
+    </style>
+    <script>
+        $(function(){
+            $(".cBtn").click(function(){
+                //alert("test")
+                //console.log("부모요소: "+$(".cBtn").parent().prev().html());
+                //console.log("모든 이전요소: "+$(".cBtn").parent().prevAll());
+                //console.log("조상요소 id"+$(".cBtn").parent().parent().attr("id"));   
+                console.log("id:  "+del_id);
+                console.log("id:  "+$(".cBtn").parent()[1].innerHTML.attr("id"));
+                
+                console.log("부모요소: "+$(".cBtn").parent().prev().html());
+                console.log("모든 이전요소1: "+$(".cBtn").parent().prevAll()[0].innerText);
+                console.log("모든 이전요소1: "+$(".cBtn").parent().prev().text());
+                console.log("모든 이전요소2: "+$(".cBtn").parent().prev().prev().prev().text());
+                console.log("조상요소 id: "+$(".cBtn").parent().parent().attr("id"));
+                
+                //let del_id=$(".cBtn").parent().parent().attr("id");
+                //console.log("id : " +del_id);
+             
+                $(".cBtn").click(function(){
+                    let del_id=$(".cBtn").parent().parent().attr("id");
+                    if(confirm("정말 삭제하시겠습니까?"))
+                    $("#"+del_id).remove();
+                });
+            
+                });
+                
+            });
+    
+    </script>
+
+    <script>
+        $(function(){
+            let no =[1,2,3,4,5,6,7,8,9,10];
+            let name = ['홍길동','유관순','이순신','김구','강감찬','김유신','홍길순','홍길자','최현묵','이규원'];
+            let kor = [63,95,72,79,93,100,99,94,54,65];
+            let eng = [64,56,78,77,50,51,68,79,96,79];
+            let math = [64,66,55,62,61,73,62,86,80,81];
+            let total=[191,217,205,218,204,224,224,229,259,230]
+            let avg=[71,77,62.3,71,59.3,76,75.3,72.7,58,82.3]
+
+        }
+
+
+            let hdata="";
+            for(let i=0; i < 10; i++){
+            hdata += "<tr id ='"+no[i]+"'>";
+            hdata += "<td>"+no[i]+"</td>";
+            hdata += "<td>"+name[i]+"</td>";
+            hdata += "<td>"+kor[i]+"</td>";
+            hdata += "<td>"+eng[i]+"</td>";
+            hdata += "<td>"+math[i]+"</td>";
+            hdata += "<td>"+total[i]+"</td>";
+            hdata +="<td>"+avg[i]+"</td>";
+            hdata += "<td><button class='delBtn'>삭제</td>";
+            hdata += "</tr>";
+            
+            
+            $("tbody").html(hdata);
+
+            $(".delBtn").click(function(){
+                console.log("클릭한 요소 id: "+$(this).parent().parent().attr("id"));
+                //console.log("class요소모음: " +$(".delBtn")[0]);
+                if(confirm(del_id+ "번 학생의 성적을 삭제하시겠습니까?")){
+                    let del_id=$(this).parent().parent().parnet().attr("id");
+                    
+                });
+            });
+    
+        
+    
+
+                /*
+            $(".delBtn").click(function(){
+                let del_id = $(".delBtn").parent().parent();
+                console.log("부모요소모음: "+del_id.attr("id"));
+                if(confirm("삭제하시겠습니까?"))
+                    $(del_id.attr("id")).remove();
+
+            });
+            */
+        
+    </script>
+</head>
+<body>
+    <section>
+
+    <h2>학생성적프로그램</h2>
+    <table>
+        <colgroup>
+        <col width="15%">
+        <col width="25%">
+        <col width="10%">
+        <col width="10%">
+        <col width="10%">
+        <col width="10%">
+        <col width="10%">
+        <col width="10%">
+        </colgroup>
+<tbody>
+        <tr>
+            <th>학번</th>
+            <th>이름</th>
+            <th>국어</th>
+            <th>영어</th>
+            <th>수학</th>
+            <th>합계</th>
+            <th>평균</th>
+            <th>삭제</th>
+        </tr>
+    </tbody>
+    </table>
+    <button id="addBtn">게시물추가</button>
+</section>
+</body>
+</html>
