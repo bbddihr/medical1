@@ -173,7 +173,14 @@ $(function(){
 
         }
         });
-
+        $("#allChk").click(function(){
+            if($(this).is(":checked")==true){
+                $(".stuChk").each(function(){
+                    $(this).prop("checked",true);
+                    
+                })
+            }
+        })
 
     });
         
