@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문자열</title>
+    <script>
+
+        var num_str="12345";
+        document.write(num_str.substring(0,3),"<br>");
+        document.write(num_str.charAt(2),"<br>");
+        document.write(num_str.charAt(-1),"<br>");
+
+        //010-1234-5678
+        //010-1234-****
+
+        while(true){
+            var in_no = prompt("전화번호를 입력하세요.(예:010-1234-4567)");
+            console.log(in_no.length);
+            if (in_no.length!=13){
+                alert("13자리입력하세요")
+                continue;
+            }else{
+                break;
+            }
+        }
+        
+
+/*
+        var num="010-1234-5678";
+        var num=prompt("전화번호를 입력하세요.(예:010-1234-4567)");
+        var tel = num.substring(0,9);
+        var tel2 = tel+"****";
+        document.write(tel2,"<br>");
+
+*/
+
+
+
+
+
+
+
+
+
+
+        /*
+        // 랜덤숫자 1-20까지,1-99999 다섯자리 랜덤숫자 생성해서
+        //입력한 숫자와 비교하여 맞는 개수를 출력하시오.
+        // 11조 10100
+        //      02457
+        var num=5;
+        console.log(String(num).padStart(2,"0"));  padstart 앞자리0으로 채워줌
+
+        var lo= Math.floor(Math.random()*99999)+1;
+        var lotto=String(lo).padStart(5,"0");
+
+
+        //lotto="12345";
+        //document.wrtie(lotto[0]);
+
+        
+        var in_no=prompt("5자리 숫자를 입력하세요.",lotto);
+        var count=0;
+        for(var i=0;i<lotto.length;i++){
+            if(lotto[i]==in_no[i]){
+                count++;
+                continue;
+            }
+        }
+        document.write("로또번호: ",lotto,"<br>");
+        document.write("입력번호: ",in_no,"<br>");
+        document.write("일치개수: ",count,"<br>");
+        */
+
+
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
