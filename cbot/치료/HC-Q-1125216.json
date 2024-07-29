@@ -1,0 +1,27 @@
+{
+    "fileName": "HC-Q-1125216",
+    "participantsInfo": {
+        "participantID": "QC190",
+        "gender": "남성",
+        "age": "50대 이상",
+        "occupation": "기타",
+        "history": false,
+        "rPlace": "대전/세종/충청/강원"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "폐결핵 치료의 성공률과 생존율은 어느 정도인가요?",
+    "entities": [
+        {
+            "id": 0,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 1
+        }
+    ],
+    "num_of_words": 6
+}

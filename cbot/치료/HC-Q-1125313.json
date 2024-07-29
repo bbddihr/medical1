@@ -1,0 +1,20 @@
+{
+    "fileName": "HC-Q-1125313",
+    "participantsInfo": {
+        "participantID": "QC044",
+        "gender": "여성",
+        "age": "50대 이상",
+        "occupation": "주부",
+        "history": false,
+        "rPlace": "부산/대구/울산/경상"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "임파선 결절로 인한 멍울의 치료 기간은 어느 정도인가요?",
+    "entities": [],
+    "num_of_words": 8
+}

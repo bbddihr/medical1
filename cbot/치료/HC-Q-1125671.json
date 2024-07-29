@@ -1,0 +1,20 @@
+{
+    "fileName": "HC-Q-1125671",
+    "participantsInfo": {
+        "participantID": "QC109",
+        "gender": "여성",
+        "age": "40대",
+        "occupation": "주부",
+        "history": false,
+        "rPlace": "대전/세종/충청/강원"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "폐 기능이 70% 이하인데 어떤 운동을 꾸준히 하면 폐 기능이 향상될 수 있을까요?",
+    "entities": [],
+    "num_of_words": 13
+}

@@ -1,0 +1,20 @@
+{
+    "fileName": "HC-Q-1125177",
+    "participantsInfo": {
+        "participantID": "QC109",
+        "gender": "여성",
+        "age": "40대",
+        "occupation": "주부",
+        "history": false,
+        "rPlace": "대전/세종/충청/강원"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "폐 기능을 유지하기 위한 운동 방법에 대해 알려주세요.",
+    "entities": [],
+    "num_of_words": 8
+}

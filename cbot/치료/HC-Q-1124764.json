@@ -1,0 +1,27 @@
+{
+    "fileName": "HC-Q-1124764",
+    "participantsInfo": {
+        "participantID": "QC407",
+        "gender": "여성",
+        "age": "50대 이상",
+        "occupation": "생산/노무직",
+        "history": false,
+        "rPlace": "대전/세종/충청/강원"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "약물 치료를 받으면 결핵의 증상이 어떻게 개선될 수 있을까요?",
+    "entities": [
+        {
+            "id": 0,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 11
+        }
+    ],
+    "num_of_words": 9
+}

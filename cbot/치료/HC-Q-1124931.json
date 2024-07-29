@@ -1,0 +1,33 @@
+{
+    "fileName": "HC-Q-1124931",
+    "participantsInfo": {
+        "participantID": "QC195",
+        "gender": "여성",
+        "age": "40대",
+        "occupation": "주부",
+        "history": false,
+        "rPlace": "서울/경기/인천"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "결핵을 치료하기 위해 항결핵제 외에 다른 치료 방법이 있을까요?",
+    "entities": [
+        {
+            "id": 0,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 0
+        },
+        {
+            "id": 1,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 13
+        }
+    ],
+    "num_of_words": 9
+}

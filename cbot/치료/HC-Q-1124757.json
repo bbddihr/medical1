@@ -1,0 +1,27 @@
+{
+    "fileName": "HC-Q-1124757",
+    "participantsInfo": {
+        "participantID": "QC109",
+        "gender": "여성",
+        "age": "40대",
+        "occupation": "주부",
+        "history": false,
+        "rPlace": "대전/세종/충청/강원"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "결핵을 앓은 이후 폐 기능을 향상시키기 위해 어떤 운동이 좋을까요?",
+    "entities": [
+        {
+            "id": 0,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 0
+        }
+    ],
+    "num_of_words": 10
+}

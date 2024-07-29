@@ -1,0 +1,27 @@
+{
+    "fileName": "HC-Q-1125279",
+    "participantsInfo": {
+        "participantID": "QC051",
+        "gender": "여성",
+        "age": "20대",
+        "occupation": "사무직",
+        "history": false,
+        "rPlace": "광주/전라/제주"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "결핵 치료에 대해 상세한 설명을 해주실 수 있을까요?",
+    "entities": [
+        {
+            "id": 0,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 0
+        }
+    ],
+    "num_of_words": 8
+}

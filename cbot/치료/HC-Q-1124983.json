@@ -1,0 +1,20 @@
+{
+    "fileName": "HC-Q-1124983",
+    "participantsInfo": {
+        "participantID": "QC193",
+        "gender": "여성",
+        "age": "50대 이상",
+        "occupation": "교직",
+        "history": false,
+        "rPlace": "부산/대구/울산/경상"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "만성 기침의 치료를 위해 어떤 보조요법이 효과적일까요?",
+    "entities": [],
+    "num_of_words": 7
+}

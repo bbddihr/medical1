@@ -1,0 +1,27 @@
+{
+    "fileName": "HC-Q-1124959",
+    "participantsInfo": {
+        "participantID": "QC186",
+        "gender": "여성",
+        "age": "50대 이상",
+        "occupation": "자영업",
+        "history": false,
+        "rPlace": "부산/대구/울산/경상"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "폐결핵에 대해 알고 싶은데, 이런 증상들이 나타날 때 어떤 치료 방법을 시행해야 할까요?",
+    "entities": [
+        {
+            "id": 0,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 1
+        }
+    ],
+    "num_of_words": 13
+}

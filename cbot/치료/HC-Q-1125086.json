@@ -1,0 +1,27 @@
+{
+    "fileName": "HC-Q-1125086",
+    "participantsInfo": {
+        "participantID": "QC134",
+        "gender": "여성",
+        "age": "40대",
+        "occupation": "주부",
+        "history": false,
+        "rPlace": "부산/대구/울산/경상"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "폐결핵 진단 후에 치료를 받기까지 걸리는 시간은 환자의 증상과 치료 방법에 따라 다를 수 있나요?",
+    "entities": [
+        {
+            "id": 0,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 1
+        }
+    ],
+    "num_of_words": 15
+}

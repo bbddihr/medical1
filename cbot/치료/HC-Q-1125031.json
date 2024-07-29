@@ -1,0 +1,27 @@
+{
+    "fileName": "HC-Q-1125031",
+    "participantsInfo": {
+        "participantID": "QC195",
+        "gender": "여성",
+        "age": "40대",
+        "occupation": "주부",
+        "history": false,
+        "rPlace": "서울/경기/인천"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "결핵 치료를 위해 약물 복용 외에도 다른 치료 방법이 있다면 알려주세요.",
+    "entities": [
+        {
+            "id": 0,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 0
+        }
+    ],
+    "num_of_words": 11
+}

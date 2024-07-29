@@ -1,0 +1,27 @@
+{
+    "fileName": "HC-Q-1124727",
+    "participantsInfo": {
+        "participantID": "QC399",
+        "gender": "여성",
+        "age": "30대",
+        "occupation": "주부",
+        "history": false,
+        "rPlace": "광주/전라/제주"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "폐결핵을 치료하기 위해 어떤 심리적인 접근 방법이 효과적일까요?",
+    "entities": [
+        {
+            "id": 0,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 1
+        }
+    ],
+    "num_of_words": 8
+}

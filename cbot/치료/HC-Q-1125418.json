@@ -1,0 +1,27 @@
+{
+    "fileName": "HC-Q-1125418",
+    "participantsInfo": {
+        "participantID": "QC112",
+        "gender": "남성",
+        "age": "20대",
+        "occupation": "학생",
+        "history": false,
+        "rPlace": "서울/경기/인천"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "폐결핵 치료 과정에서 흔히 발생하는 합병증이 있는지 알려주세요.",
+    "entities": [
+        {
+            "id": 0,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 1
+        }
+    ],
+    "num_of_words": 8
+}

@@ -1,0 +1,27 @@
+{
+    "fileName": "HC-Q-1124662",
+    "participantsInfo": {
+        "participantID": "QC335",
+        "gender": "남성",
+        "age": "40대",
+        "occupation": "사무직",
+        "history": false,
+        "rPlace": "부산/대구/울산/경상"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "폐결핵 환자를 치료하기 위한 최신 치료 방법에 대해 알려주세요.",
+    "entities": [
+        {
+            "id": 0,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 1
+        }
+    ],
+    "num_of_words": 9
+}

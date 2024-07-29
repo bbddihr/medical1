@@ -1,0 +1,27 @@
+{
+    "fileName": "HC-Q-1125679",
+    "participantsInfo": {
+        "participantID": "QC109",
+        "gender": "여성",
+        "age": "40대",
+        "occupation": "주부",
+        "history": false,
+        "rPlace": "대전/세종/충청/강원"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "결핵을 앓고 난 후에도 어떤 종류의 운동을 계속하는 것이 폐 기능을 회복하는 데 도움이 될까요?",
+    "entities": [
+        {
+            "id": 0,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 0
+        }
+    ],
+    "num_of_words": 15
+}

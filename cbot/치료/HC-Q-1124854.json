@@ -1,0 +1,27 @@
+{
+    "fileName": "HC-Q-1124854",
+    "participantsInfo": {
+        "participantID": "QC298",
+        "gender": "여성",
+        "age": "20대",
+        "occupation": "사무직",
+        "history": false,
+        "rPlace": "서울/경기/인천"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "폐결핵의 치료를 위해 현재 시도해볼 수 있는 치료 방법이 있는지 알려주세요.",
+    "entities": [
+        {
+            "id": 0,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 1
+        }
+    ],
+    "num_of_words": 11
+}

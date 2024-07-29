@@ -1,0 +1,27 @@
+{
+    "fileName": "HC-Q-1125410",
+    "participantsInfo": {
+        "participantID": "QC169",
+        "gender": "여성",
+        "age": "30대",
+        "occupation": "무직",
+        "history": false,
+        "rPlace": "광주/전라/제주"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "결핵 치료에 효과적인 약물이 있는지 알고 싶어요.",
+    "entities": [
+        {
+            "id": 0,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 0
+        }
+    ],
+    "num_of_words": 7
+}

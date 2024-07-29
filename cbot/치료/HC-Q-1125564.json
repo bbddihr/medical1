@@ -1,0 +1,27 @@
+{
+    "fileName": "HC-Q-1125564",
+    "participantsInfo": {
+        "participantID": "QC358",
+        "gender": "여성",
+        "age": "30대",
+        "occupation": "기타",
+        "history": false,
+        "rPlace": "서울/경기/인천"
+    },
+    "disease_category": "감염성질환",
+    "disease_name": {
+        "kor": "결핵",
+        "eng": "Tuberculosis"
+    },
+    "intention": "치료",
+    "question": "폐결핵을 치료하기 위해 병원에서 어떤 약물을 사용하나요?",
+    "entities": [
+        {
+            "id": 0,
+            "text": "결핵",
+            "entity": "질환명",
+            "position": 1
+        }
+    ],
+    "num_of_words": 7
+}
